@@ -1,0 +1,54 @@
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#667eea,#764ba2);
+margin:0;
+padding:0;
+}
+
+.container{
+width:80%;
+margin:auto;
+padding:30px;
+}
+
+h1{
+color:white;
+text-align:center;
+}
+
+.auth-box,.post-box{
+background:white;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+button{
+background:#667eea;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+margin-right:10px;
+}
+
+button:hover{
+background:#5a67d8;
+}
+
+.post{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+}
